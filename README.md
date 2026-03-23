@@ -1,10 +1,10 @@
-# 🌤️ Django Weather & City Explorer
+# Django Weather & City Explorer
 
 A dynamic web application built with Django that provides real-time weather data and beautiful city imagery by integrating multiple third-party APIs.
 
 ---
 
-## ✨ Features
+##  Features
 * **Live Weather Updates:** Fetches temperature, wind speed, and humidity using the **OpenWeatherMap API**.
 * **Dynamic Visuals:** Automatically pulls high-quality city background images using an **Image API** (Unsplash/Pixabay).
 * **Search History:** Keeps track of recently searched cities for quick access.
@@ -13,7 +13,7 @@ A dynamic web application built with Django that provides real-time weather data
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 * **Backend:** Python 3.12, Django 5.x
 * **APIs:** * OpenWeatherMap (Meteorological Data)
     * Unsplash/Pixabay API (City Images)
@@ -22,7 +22,7 @@ A dynamic web application built with Django that provides real-time weather data
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 The application follows the Model-View-Template (MVT) architecture:
 1. **Request:** The user enters a city name in the search bar.
 2. **Fetch:** The Django view sends simultaneous requests to the Weather and Image APIs.
@@ -32,7 +32,7 @@ The application follows the Model-View-Template (MVT) architecture:
 
 ---
 
-## 📂 Installation & Setup
+##  Installation & Setup
 
 1. **Clone the Project:**
    ```bash
